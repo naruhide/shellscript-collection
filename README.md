@@ -1,2 +1,2 @@
 # shellscript-collection
-My shellscript collections.
+Feel free to use it.
