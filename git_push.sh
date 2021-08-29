@@ -6,12 +6,11 @@ read -p 'Enter commit message: ' COMMIT_MESSAGE
 git commit -m "$COMMIT_MESSAGE"
 
 git push -u origin master
-set timeout 3
 expect {
-  "Username:" {
+  "Username" {
     send "$GIT_USERNAME\n"
   }
-  "Password:" {
+  "Password" {
     send "$GIT_ACCESS_TOKEN\n"
   }
 }
