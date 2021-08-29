@@ -7,4 +7,3 @@ else
   echo "[ERROR] Please try again."
   exit 1
 fi
-
