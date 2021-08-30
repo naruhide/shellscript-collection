@@ -1,4 +1,5 @@
 #!/bin/bash
+# Set the environment variables 'GIT_USERNAME' and 'GIT_ACCESS_TOKEN' in advance.
 
 git add .
 
